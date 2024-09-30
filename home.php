@@ -33,10 +33,10 @@ if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
     <!-- Botones -->
     <nav>
         <ul class="menu">
-            <li><a href="">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="">Servicios</a>
                 <ul>
-                    <li><a href="">submenu1</a></li>
+                    <li><a href="">Registro</a></li>
                     <li><a href="">submenu2</a></li>
                 </ul>
             </li>

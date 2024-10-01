@@ -30,7 +30,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
             <a href="logout.php">Logout</a>
         </div>
     </div>
-    <!-- Botones -->
+    <!-- menu para mostrar los elementos que tendra el menu, con listas -->
     <nav>
         <ul class="menu">
             <li><a href="home.php">Home</a></li>

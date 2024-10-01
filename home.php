@@ -32,6 +32,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
     </div>
     <!-- menu para mostrar los elementos que tendra el menu, con listas -->
     <nav>
+        <!-- este es el menu, donde se pondra los botones de dicha operacion que desea realizar -->
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
             <li><a href="">Servicios</a>

@@ -18,7 +18,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
     
     <div class="Welcome">
         <div>
-            <img src="img/logo_welcome.png" alt="logo ues">
+            <img src="img/Logo_setues.png" alt="logo ues" class="logo">
         </div>
         <div class="texts">
             <h1>Portal personal</h1>
@@ -36,21 +36,24 @@ if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
             <li><a href="home.php">Home</a></li>
             <li><a href="">Servicios</a>
                 <ul>
-                    <li><a href="">Registro</a></li>
+                    <?php
+                        if($_SESSION['id']==5) {
+                    ?>
+                        <li><a href="register.php">Registros</a></li>
+                    <?php
+                        }
+                    ?>
                     <li><a href="">submenu2</a></li>
                 </ul>
             </li>
         </ul>
         
         <!-- Crea un boton para el admin con la funcion de crear nuevos usuarios -->
-        <?php
-            if($_SESSION['id']==5) {
-        ?>
-        <button class="btn btn-light"  onclick="window.location.href='register.php'" >Registro</button>
-        <?php
-        }
-        ?>
     </nav>
+
+    <div class="container_logo">
+        <img src="img/Logo_desemfoque.png" alt="Logo_ues">
+    </div>
     <script src="script.js"></script>
 </body>
 

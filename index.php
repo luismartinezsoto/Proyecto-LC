@@ -19,7 +19,7 @@
             <h1>Inicio de sesion</h1>
         </div>
     </div>
-    <nav class="navigator"></nav>
+    <nav></nav>
 
     <!-- Formulario del login-->
     <section class="section-login">
